@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#body
+{
+    background-color: blueviolet;
+     display: flex;
+    justify-content: center;
+   
+} 
+header,footer
+{
+   
+    margin: 10vh;
+}
+#col
+{
+    background-color: blueviolet;
+}
+#box
+{
+
+    border-radius: 16px;
+   
+    width: 56vw;
+    height: 80vh;
+    background-color: white;
+}
+h1{
+    margin: 14px 2vw 4px 14px;
+    padding: 5px;
+    
+    display: flex; 
+    justify-content: center;
+    /* align-items: center; */
+    color: black;
+}
+
+#email
+{
+    margin: 7px 6px 14px 10vw ;
+    padding: 5px;
+    width: 35vw;
+    height: 10vh;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex; 
+    justify-content: flex-end;
+    color: black;
+    display: inline;
+    box-sizing: border-box;
+}
+#cb
+{
+    margin: 7px 6px 14px 10vw;
+    display: flex;
+    display: inline;
+    size: 2px;
+    justify-content: flex-start;
+}
+#but
+{
+    /* margin: 14px 6px 14px 6px;
+    padding: 5px;
+    display: flex;
+    display: inline;
+    width: 50vh;
+    size: 2px;
+    justify-content: flex-start;
+    
+    
+    border-radius: 2px; */
+    margin: 14px 6px 14px 13vw;
+    padding: 5px;
+    width: 30vw;
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    font-size: 28px;
+    color: white;
+    display: inline;
+    box-sizing: border-box;
+}
+#a
+{
+    margin: 14px 6px 14px 22vw;
+}
+#bb:hover,#bb:link,#bb:visited
+{
+    color: white;
+    text-decoration: none;
+}
